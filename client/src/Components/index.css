@@ -1,0 +1,19 @@
+body {
+  overflow: hidden;
+}
+/* in mobile */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+/* in tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* in desktop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .confMesgs {
+    overflow-y: scroll;
+    height: 405px;
+    background: rgba(119, 101, 1, 0.384);
+    color: #fff;
+  }
+}
