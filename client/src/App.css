@@ -1,0 +1,19 @@
+/* in mobile */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+/* in tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* in desktop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .main-div {
+    height: 90vh;
+    margin: 20px 30px 30px 30px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(114, 107, 107);
+    background-image: url(./img/vvit-2.jpg);
+    background-size: 1400px 550px;
+    background-repeat: no-repeat;
+  }
+}
