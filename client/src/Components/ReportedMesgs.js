@@ -1,7 +1,6 @@
 import React from "react";
-import "./index.css";
+import "../App.css";
 import Alert from "react-bootstrap/Alert";
-import Button from "react-bootstrap/Button";
 import { connect } from "react-redux";
 
 import { getMesgs, delMesg } from "../redux/actions/confMesgAction";

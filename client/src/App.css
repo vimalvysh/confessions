@@ -1,13 +1,25 @@
+body {
+  overflow: hidden;
+}
 /* in mobile */
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .main-div {
     height: 90vh;
-    margin: 20px 30px 30px 30px;
+    margin: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    background-color: rgb(114, 107, 107);
     background-image: url(./img/vvit-2.jpg);
-    background-size: 1400px 550px;
+    background-size: 440px 550px;
     background-repeat: no-repeat;
+  }
+  .confMesgs {
+    overflow-y: scroll;
+    background-color: rgba(114, 107, 107, 0.5);
+  }
+  .searchMesg {
+    margin-top: 10px;
+  }
+  .text-sm {
+    font-size: 20px;
   }
 }
 /* in tablet */
@@ -21,6 +33,12 @@
     background-size: 1400px 550px;
     background-repeat: no-repeat;
   }
+  .confMesgs {
+    overflow-y: scroll;
+    height: 405px;
+    background: rgba(119, 101, 1, 0.384);
+    color: #fff;
+  }
 }
 
 /* in desktop */
@@ -33,5 +51,11 @@
     background-image: url(./img/vvit-2.jpg);
     background-size: 1400px 550px;
     background-repeat: no-repeat;
+  }
+  .confMesgs {
+    overflow-y: scroll;
+    height: 405px;
+    background: rgba(119, 101, 1, 0.384);
+    color: #fff;
   }
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 import Alert from "react-bootstrap/Alert";
-import Button from "react-bootstrap/Button";
 import { connect } from "react-redux";
 
 import { getMesgs, delMesg } from "../redux/actions/confMesgAction";
@@ -100,7 +99,7 @@ class Index extends React.Component {
             <div className="col-md-6 pr-4">
               <input
                 type="text"
-                className="form-control "
+                className="form-control searchMesg "
                 name="searchMesg"
                 placeholder="Search Confession message's here .... "
                 onChange={this.handleFormMesgChange}
@@ -113,7 +112,9 @@ class Index extends React.Component {
         </div> */}
             <div className="col-md-12 pr-4 ">
               <Alert className="confMesgs">
-                <Alert.Heading>Confession Message's .. !</Alert.Heading>
+                <Alert.Heading>
+                  <p className="text-sm">Confession Message's .. !</p>{" "}
+                </Alert.Heading>
                 {confssionMessag}
               </Alert>
             </div>
